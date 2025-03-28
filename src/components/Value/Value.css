@@ -1,0 +1,29 @@
+.value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 48px;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.value.loading {
+  background-color: #e9ecef;
+}
+
+.value-text {
+  font-family: 'Arial', sans-serif;
+  letter-spacing: 1px;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
